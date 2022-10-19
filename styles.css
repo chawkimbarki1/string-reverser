@@ -35,9 +35,10 @@ textarea, p, button {
 }
 
 textarea {
-  width: 40%;
-  height: 250px;
-  padding: 10px;
+    resize: none;
+    width: 40%;
+    height: 250px;
+    padding: 10px;
 }
 
 p {
@@ -45,6 +46,7 @@ p {
   font-family: monospace;
   font-size: 22px;
   width: 40%;
+  padding: 10px;
 }
 
 span {
